@@ -1,7 +1,7 @@
 # main.py
 
 import tkinter as tk
-from functions import fetch_content
+from app.functions import fetch_content
 
 def main():
     def on_fetch_button_click():

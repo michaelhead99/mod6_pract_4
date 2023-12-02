@@ -3,6 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+
 def fetch_content(url):
     try:
         response = requests.get(url)

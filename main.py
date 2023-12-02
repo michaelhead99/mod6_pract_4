@@ -3,6 +3,7 @@
 import tkinter as tk
 from app.functions import fetch_content
 
+
 def main():
     def on_fetch_button_click():
         url = url_entry.get()
@@ -34,6 +35,7 @@ def main():
     image_count_label.grid(row=3, column=0, columnspan=3, pady=10)
 
     root.mainloop()
+
 
 if __name__ == "__main__":
     main()
